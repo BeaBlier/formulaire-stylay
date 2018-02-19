@@ -4,15 +4,15 @@ body
   justify-content: center;
   align-items: center;
   // align-items: center;
-  background-color: rgb(135, 149, 133);
-  // background: url(fonducv.jpg);
-  // background-size: cover;
+  //background-color: rgb(135, 149, 133);
+  background-image: url('https://i.stack.imgur.com/p9mUO.jpg');
+  
 }
 
 .container
 {
   display: flex;
-  background-color: white;
+  background-color: lightgray;
   width: 40rem;
   margin-top: 10rem;
   height: 20rem;
@@ -34,16 +34,26 @@ body
 }
 
 .container form input[type=submit] {
+// .actions {
   background-color: blue;
-  font-size: 30px;
+  font-size: 40px;
   border-radius: 10px;
-
-
+  align-self: center;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 3px;
 }
 
 .bouton {
-  background-color: grey;
-  width: 250px;
-
-
+//background-color: grey;
+//  width: 200px;
+//  flex-flow: column-reverse;
+  align-self: flex-end;
+  background-color: #A9ACBD;
+  height: 52px;
+  width: 350px;
+  color: white;
+  margin-top: 85px;
+  text-align: center;
+  padding-top: 30px;
 }
